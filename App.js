@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet, ScrollView } from 'react-native';
+import { API_BASE } from './constants/API'; // 🌟 NEW: Import API base URL
 
 export default function App() {
   const [goal, setGoal] = useState('');
@@ -7,7 +8,7 @@ export default function App() {
 
   const generateSteps = async () => {
     try {
-      const response = await fetch('http://localhost:8000/generate-steps', {
+      const response = await fetch(`${API_BASE}/generate-steps`, { // 🌟 UPDATED
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
