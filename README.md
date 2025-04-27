@@ -6,6 +6,14 @@ This repository contains the frontend — built with Expo and React Native, prov
 
 📡 This app connects to the TaskWizard Server to generate step-by-step roadmaps from any goal you enter.
 
+<p align="center">
+  <img src="assets/images/screenshot-prompt.png" alt="TaskWizard Demo 1" width="800"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/screenshot-prompt1.png" alt="TaskWizard Demo 2" width="800"/>
+</p>
+
 ⸻
 
 🚀 Quick Start
