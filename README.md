@@ -1,50 +1,86 @@
-# Welcome to your Expo app 👋
+🎯 TaskWizard – Frontend
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+TaskWizard is a smart task breakdown assistant powered by a FastAPI backend and a local LLM (TinyLlama / Llama3.2 via Ollama).
 
-## Get started
+This repository contains the frontend — built with Expo and React Native, providing a clean, simple, and mobile-friendly UI.
 
-1. Install dependencies
+📡 This app connects to the TaskWizard Server to generate step-by-step roadmaps from any goal you enter.
 
-   ```bash
+⸻
+
+🚀 Quick Start
+
+1. Clone this repository
+   git clone https://github.com/prjwrld/taskwizard-frontend.git
+   cd taskwizard-frontend
+
+2. Install dependencies
    npm install
-   ```
 
-2. Start the app
+3. Start the development server
+   npx expo start
 
-   ```bash
-    npx expo start
-   ```
+You’ll get options to open the app in:
+	•	📱 Expo Go on your phone
+	•	🖥️ Android Emulator
+	•	🍏 iOS Simulator
+	•	🌐 Web browser
 
-In the output, you'll find options to open the app in a
+ 🛠️ Project Structure
+ TaskWizardApp/
+ ├── app/              # App routing and screens
+ ├── assets/           # Images, fonts, icons
+ ├── components/       # Reusable UI components
+ ├── constants/        # API base URLs, color schemes
+ ├── hooks/            # Custom React hooks
+ ├── scripts/          # Helper scripts
+ ├── App.js            # Main app entry point
+ ├── package.json      # Project metadata
+ ├── README.md         # Project documentation
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+ 
+⸻
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+🌐 API Integration
 
-## Get a fresh project
+By default, this app connects to a locally running server at: export const API_BASE = "http://localhost:8000";
 
-When you're ready, run:
+✅ To connect to your deployed backend (example: Render or Railway), update your API base URL in constants/ folder.
 
-```bash
-npm run reset-project
-```
+Example: export const API_BASE = "https://taskwizard-server.onrender.com";
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+📚 Learn More
+	•	Expo Documentation
+	•	React Native Docs
+	•	FastAPI Docs
 
-## Learn more
+⸻
 
-To learn more about developing your project with Expo, look at the following resources:
+🤝 Contributing
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Contributions are welcome! Feel free to:
+	•	🐛 Open issues for bugs
+	•	💡 Suggest new features
+	•	📜 Improve documentation
 
-## Join the community
+⸻
 
-Join our community of developers creating universal apps.
+⚡ Related Projects
+	•	TaskWizard Server — FastAPI + Ollama backend API
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+⸻
+
+📜 License
+
+This project is licensed under the MIT License — see the LICENSE file for details.
+
+⸻
+
+💬 Final Note:
+
+TaskWizard is designed to help you turn dreams into clear actions — step-by-step, powered by smart AI 🧠✨.
+Made with ❤️ by Prajwal.
+
+
+
+
