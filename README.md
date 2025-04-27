@@ -17,8 +17,8 @@ This repository contains the frontend — built with Expo and React Native, prov
 ```
 
 3. Install dependencies
-  ```
-npm install
+```
+   npm install
 ```
 
 3. Start the development server
