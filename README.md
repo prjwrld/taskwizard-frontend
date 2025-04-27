@@ -12,15 +12,19 @@ This repository contains the frontend — built with Expo and React Native, prov
 
 1. Clone this repository
    git clone https://github.com/prjwrld/taskwizard-frontend.git
+```
    cd taskwizard-frontend
+```
 
-2. Install dependencies
+3. Install dependencies
   ```
 npm install
 ```
 
 3. Start the development server
+   ```
    npx expo start
+   ```
 
 You’ll get options to open the app in:
 	•	📱 Expo Go on your phone
@@ -45,11 +49,17 @@ You’ll get options to open the app in:
 
 🌐 API Integration
 
-By default, this app connects to a locally running server at: export const API_BASE = "http://localhost:8000";
+By default, this app connects to a locally running server at: 
+``` 
+export const API_BASE = "http://localhost:8000";
+```
 
 ✅ To connect to your deployed backend (example: Render or Railway), update your API base URL in constants/ folder.
 
-Example: export const API_BASE = "https://taskwizard-server.onrender.com";
+Example: 
+```
+export const API_BASE = "https://taskwizard-server.onrender.com";
+```
 
 📚 Learn More
 	•	Expo Documentation
